@@ -1,0 +1,11 @@
+/*
+!.github
+!src
+!.gitignore
+!mvnw*
+!pom.xml
+!README.md
+!.mvn
+!Dockerfile
+
+.DS*
