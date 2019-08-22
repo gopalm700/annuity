@@ -21,8 +21,6 @@ Request format:
 curl -X POST \
   http://localhost:8080/generate-plan \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: 5483bcdf-67ba-4f6c-9e3f-9b830545b52a' \
-  -H 'cache-control: no-cache' \
   -d '{
 "loanAmount": "5000",
 "nominalRate": "500.0",
@@ -32,5 +30,6 @@ curl -X POST \
 ```
 
 Improvement Scope:
-Give result in pagination.
-Api Documentation
+
+1. Give result in pagination.
+2. Api Documentation
